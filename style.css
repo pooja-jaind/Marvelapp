@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: url(Banner_mage.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ccc;
+    font-family: 'Titillium Web', sans-serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 164px;
+    align-items: center;
+}
+.wrapper__logo{
+    width:100%;
+}
+.wrapper__logo img{
+    width: 240px;
+} 
+.wrapper__info h3{
+    color: #FFFFFF;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    font-weight: 400;
+    margin-top:60px;
+}
+.wrapper__info p{
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 3.59px;
+    margin-top: 16px;
+    font-weight: 200;
+}
+button{
+    background-color: #DD5A6A;
+    border-radius: 4px;
+    padding:12px 20px;
+    color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 20px;
+  border: none;
+}
+
+.wrapper__right{
+    background-color: #FFFFFF;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    padding: 32px;
+    display: flex;
+    width: 342px;
+}
+.wrapper__right  h4{
+    color: #213559;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.wrapper__right input, .wrapper__right textarea{
+    width: 100%;
+    border: 0.87px solid #D0D0D0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
